@@ -1,0 +1,50 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+}
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e3516e;
+    height: 300px;
+    width: 400px;
+  }
+  
+  .box {
+    width: 50%;
+    height: 50%;
+  }
+  
+  #circle {
+    border-radius: 50%;
+    overflow: hidden;
+    height: 200px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  #box1 {
+    background-color: #51b5a9;
+  }
+  
+  #box2 {
+    background-color: #fade8b;
+  }
+  
+  #box3 {
+    background-color: #f7f3d7;
+  }
+  
+  #box4 {
+    background-color: #e3516e;
+  }
+  
